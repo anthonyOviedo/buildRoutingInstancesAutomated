@@ -1,0 +1,15 @@
+set routing-instances A instance-type virtual-router
+set routing-instances A interface lt-0/0/0.1
+set routing-instances B instance-type virtual-router
+set routing-instances B interface lt-0/0/0.2
+set routing-instances B interface lt-0/0/0.3
+set routing-instances c instance-type virtual-router
+set routing-instances c interface lt-0/0/0.4
+set interfaces lt-0/0/0.1 encapsulation ethernet
+set interfaces lt-0/0/0.1 peer-unit 2
+set interfaces lt-0/0/0.2 encapsulation ethernet
+set interfaces lt-0/0/0.2 peer-unit 1
+set interfaces lt-0/0/0.3 encapsulation ethernet
+set interfaces lt-0/0/0.3 peer-unit 4
+set interfaces lt-0/0/0.4 encapsulation ethernet
+set interfaces lt-0/0/0.4 peer-unit 3
