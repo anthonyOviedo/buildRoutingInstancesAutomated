@@ -9,9 +9,13 @@ The file already has an Example with 3 instances  (A)_1________2__(B)__3________
 step 1:
 to set A , B , C routers you have to wirte the name first.:
 
-A 1 
+
+A 1
+
 B 2 3 
+
 C 4
+
 
 step 2:
 save that in txt file named "routers.txt" file in the same path as the .py file.
