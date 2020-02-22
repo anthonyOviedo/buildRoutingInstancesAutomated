@@ -1,4 +1,4 @@
-# buidRoutingInstancesAutomated
+# buildRoutingInstancesAutomated
 Short code to create those comands needed to set conections betwen rounting instances in a master router for junnos devices
 
 
