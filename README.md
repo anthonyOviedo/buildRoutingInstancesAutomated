@@ -7,7 +7,7 @@ MANUAL:
 The file already has an Example with 3 instances  (A)_1________2__(B)__3________4_(C)
 
 step 1:
-to set A , B , C routers you have to wirte the name first.:
+to set A , B , C routers you have to wirte the name first followed by its interfaces:
 
 
 A 1
